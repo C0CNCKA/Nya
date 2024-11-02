@@ -5,7 +5,6 @@ number2 = int(input("Введите число на сколько вы меня
 if sign == "+":
     print(number1 + number2)
 elif sign == "-":
-    print(number1 - number2)
     if number1 > number2:
         print(number1 - number2)
     else:
